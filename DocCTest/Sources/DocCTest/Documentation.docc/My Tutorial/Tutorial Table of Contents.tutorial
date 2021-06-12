@@ -1,0 +1,16 @@
+@Tutorials(name: "name of tutorial") {
+    @Intro(title: "title for intro") {
+        This is intro.
+        Hello, DocC!
+        
+        @Image(source: codershighProfile.png, alt: "Welcome to CodersHigh!")
+    }
+    
+    @Chapter(name: "Chapter1 title") {
+        This is Chapter1.
+        
+        @Image(source: codershighProfile.png, alt: "Welcome to Chapter1!")
+        
+        @TutorialReference(tutorial: "doc:Tutorial-Chapter1")
+    }
+}
