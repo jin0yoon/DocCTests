@@ -1,16 +1,15 @@
-@Tutorials(name: "name of tutorial") {
-    @Intro(title: "title for intro") {
-        This is intro.
-        Hello, DocC!
+@Tutorials(name: "DocCTest") {
+    @Intro(title: "SwiftUI Prototyping") {
+        SwiftUI의 View에 대해 학습해보고 직접 UI화면을 구현해봅시다.
         
-        @Image(source: codershighProfile.png, alt: "Welcome to CodersHigh!")
+        @Image(source: SwiftUIPrototypingicon.png, alt: "Welcome to SwiftUI Prototyping!")
     }
     
-    @Chapter(name: "Chapter1 title") {
-        This is Chapter1.
+    @Chapter(name: "SwiftUI Basic") {
+        이 Chapter에서는 SwiftUI의 가장 기본적인 View 요소들에 대해 배울 것 입니다.
         
-        @Image(source: codershighProfile.png, alt: "Welcome to Chapter1!")
+        @Image(source: SwiftUIPrototypingicon.png, alt: "Welcome to SwiftUI Basic!")
         
-        @TutorialReference(tutorial: "doc:Tutorial-Chapter1")
+        @TutorialReference(tutorial: "doc:SwiftUI-Basic")
     }
 }
